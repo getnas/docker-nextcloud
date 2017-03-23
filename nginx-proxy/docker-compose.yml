@@ -1,0 +1,10 @@
+nginx-proxy:
+  image: jwilder/nginx-proxy
+  container_name: nginx-proxy
+  ports:
+    - "80:80"
+    - "443:443"
+  volumes:
+    - /etc/letsencrypt/live/www.yourdomain.com:/etc/nginx/certs:ro
+    - /var/run/docker.sock:/tmp/docker.sock:ro
+    - ./conf/my_proxy.conf:/etc/nginx/conf.d/my_proxy.conf:ro

@@ -9,3 +9,4 @@ For NextCloud fast deployment
 * [docker/compose](https://github.com/docker/compose)
 * [jwilder/nginx-proxy](https://hub.docker.com/r/jwilder/nginx-proxy/)
 * [wonderfall/nextcloud](https://hub.docker.com/r/wonderfall/nextcloud/)
+* [JrCs/docker-letsencrypt-nginx-proxy-companion](https://github.com/JrCs/docker-letsencrypt-nginx-proxy-companion)
